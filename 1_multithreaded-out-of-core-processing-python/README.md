@@ -9,5 +9,6 @@ See inside each notebook for a step-by-step detailed explanation of the content
 
 ## Requirements
 
-Make sure to follow the step from the `rpi-setup.md` in this repository and then run the `0_setup` Notebook 
-to create a random input dataset.
+In case you need to prepare a large input file, see:
+
+<https://gist.github.com/zonca/c81f87587f9cf67cff2e2f050b8d181c>
