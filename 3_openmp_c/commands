@@ -1,0 +1,7 @@
+export OMP_NUM_THREADS=X; ./openmp_eigen_static 500 500 E
+export OMP_NUM_THREADS=X; ./openmp_eigen_static 500 700 U
+export OMP_NUM_THREADS=X; ./openmp_eigen_dynamic 500  700 U
+
+# where X = 1, 2, 4, 8, 16; run times will vary from 2 to 75 seconds
+# E = even time per iteration
+# U = uneven time per iteration
